@@ -6,10 +6,30 @@
   box-sizing: border-box;
 
   font-family: 'open Sans', sans-serif;
+
+  list-style: none;
 }
 
 html, body, #root{
   background-color: #FFF;
 
-  height: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+
+  font-size: 1rem;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img{
+  vertical-align: top;
+}
+
+a{
+  text-decoration: none;
 }
